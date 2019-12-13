@@ -18,7 +18,9 @@ const SmurfList = ({fetchsmurfs, smurfs, error, isFetching}) => {
       {error && <p>{error}</p>}
       {/* if smurfs were null, would need to do {smurfs && smurfs.length} then map */}
       {smurfs.map(smurf => (
+        <div className= 'smurfcards'>
         <SmurfCard smurf={smurf} />
+        </div>
       ))}
     </div>
   );

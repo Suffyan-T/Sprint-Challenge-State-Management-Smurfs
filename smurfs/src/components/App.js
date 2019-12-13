@@ -14,7 +14,7 @@ export const store = createStore(rootReducer, applyMiddleware(thunk))
  export function App() {
   return (
     <div className="App">
-      <h1>Welcome to the world of Smurfs</h1>
+      <h1 className ='title'>Welcome to the world of Smurfs</h1>
       <SmurfList />
       <NewSmurf/>
     </div>
