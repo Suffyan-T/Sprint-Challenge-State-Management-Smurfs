@@ -52,7 +52,7 @@ const AddSmurf = props => {
           id="sheight"
           onChange={handleChanges}
           value={smurf.height}
-          placeholder="height inches"
+          placeholder="height CM"
         />
         </label>
         <button onClick={logValues}> Add Smurf </button>
